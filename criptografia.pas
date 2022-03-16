@@ -1,4 +1,4 @@
-Program criptografar ;
+Program criptografar;
 Var
 	palavra : string = 'CEDUP';
 	i, num : integer;
