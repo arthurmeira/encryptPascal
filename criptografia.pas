@@ -11,11 +11,9 @@ function crip(msg: string; num: integer) : string;
 			crip := palavra;
 	end;
 Begin
-//Aqui definimos quantas letras que vão ser puladas com 'num'.
 	num := 5;
 	writeln('Palavra descriptografada: ',palavra);
 	
-//Aqui chamamos a função 'crip() e o que queremos criptografar = 'palavra' e 'num'.
 	palavra := crip(palavra, num);
 	writeln('Palavra criptografada: ',palavra);
 	readkey;
